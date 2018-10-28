@@ -12,6 +12,15 @@
 */
 
 Route::get('/', function () {
+    return view('home');
+});
+Route::get('/about',function () {
+    return view('about');
+});
+Route::get('/contact',function () {
+    return view('contact');
+});
+Route::get('/login',function () {
     return view('login');
 });
 Route::post('/loginChecker','LoginController@loginChecker');
@@ -35,6 +44,9 @@ Route::post('/closeQuiz','TeacherController@closeQuiz');
 Route::post('/addQuestion','TeacherController@addQuestion');
 
 Route::get('/student/class','StudentController@getClass');
-
+Route::post('/enrollClass','StudentController@enrollClass');
+Route::get('/student/quiz','StudentController@getQuiz');
+Route::post('/student/class/view','StudentController@viewClass');
+Route::post('/student/class/view/quiz','StudentController@viewQuiz');
 
 

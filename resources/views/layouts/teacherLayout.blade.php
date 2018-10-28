@@ -48,9 +48,9 @@
 		
 
 		<ul class="nav menu">
-			<li class="active"><a href="/teacher"><em class="fa fa-dashboard">&nbsp;</em> Dashboard</a></li>
-			<li><a href="/teacher/class"><em class="fa fa-calendar">&nbsp;</em> Classes</a></li>
-			<li><a href="/teacher/quiz"><em class="fa fa-file-o">&nbsp;</em> Quizzes</a></li>
+			<li ><a href="/teacher"><em class="fa fa-dashboard">&nbsp;</em> Dashboard</a></li>
+			<li ><a href="/teacher/class"><em class="fa fa-calendar">&nbsp;</em> Classes</a></li>
+			<li class="active"><a href="/teacher/quiz"><em class="fa fa-file-o">&nbsp;</em> Quizzes</a></li>
 			<li><a href="#"><em class="fa fa-child">&nbsp;</em> Students</a></li>
 			<li><a href="#"><em class="fa fa-group">&nbsp;</em> Teachers</a></li>
 			<li><a href="#"><em class="fa fa-gears">&nbsp;</em> Account</a></li>
