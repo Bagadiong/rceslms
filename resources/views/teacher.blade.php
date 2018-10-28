@@ -1,0 +1,10 @@
+@extends('layouts.teacherLayout')
+
+@section('content')
+<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+	
+<h2>{{session('teacherUsername')}}</h2>
+	
+</div>
+
+@endsection
